@@ -1,0 +1,25 @@
+.card {
+  width: 270px;
+  border: solid;
+
+  &__fields {
+    display: grid;
+
+    input {
+      margin-bottom: 10px;
+      height: 25px;
+      border-radius: 4px;
+      border: solid 1px;
+    }
+
+    textarea {
+      border-radius: 4px;
+      border: solid 1px;
+    }
+  }
+
+  &__button {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

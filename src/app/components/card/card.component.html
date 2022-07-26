@@ -1,0 +1,21 @@
+<mat-card class="card">
+  <form action="" [formGroup]="formCard">
+    <div class="card__fields">
+      <input type="text" placeholder="Título" formControlName="titulo" />
+      <textarea
+        name=""
+        id=""
+        cols="10"
+        rows="10"
+        placeholder="Conteúdo"
+        formControlName="conteudo"
+      ></textarea>
+    </div>
+    <div class="card__button">
+      <button mat-raised-button color="primary" (click)="addCard()">
+        Adicionar Card
+        <mat-icon>add_circle</mat-icon>
+      </button>
+    </div>
+  </form>
+</mat-card>
